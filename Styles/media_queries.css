@@ -21,6 +21,10 @@
 	.circle {
 		margin-bottom: 20px;
 	}
+	.event-block p {
+		line-height: 18px;
+		margin-bottom: 4px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -28,6 +32,25 @@
 	.map-info {
 		padding: 10px;
 	}
+	.partners {
+		width: 200px;
+		margin: 0 auto;
+	}
+	.partners img {
+		margin: 10px 0;
+	}	
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 575px) {
+	h3.hall {
+		display: none;
+	}
+	.map-info {
+/*		width: auto;
+		min-width: 280px;
+		right: 0;*/
+		display: none;
+	}	
 }
 
 /* Extra Small Devices, Phones */ 
