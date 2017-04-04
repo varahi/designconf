@@ -26,7 +26,7 @@ body {
 	max-width: 960px;
 }
 .parallax-window {
-	min-height: 600px;
+	min-height: 900px;
   background: transparent;
 }
 .parallax-window-2 {
@@ -56,7 +56,17 @@ a:hover {
 }
 .header__icons a {
 	display: inline-block;
-	margin-right: 25px;
+	/*margin-right: 25px;*/
+	margin-right: 5px;
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;		
+	padding: 10px 14px;
+}
+.header__icons a:HOVER {
+	background-color: #fff !important;
+	color: #2c1565;
+	text-decoration: none;
 }
 .header__icons a.last {
 	margin-right: 0;
@@ -85,25 +95,37 @@ a.header__share--button {
 	border: 1px solid #393a57;
 	padding: 12px 28px;
 	font-family: 'avantgardegothiccregular';
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;	
 }
+a.header__share--button:HOVER {
+	background: #fff;
+	text-decoration: none;
+	color: #2c1565;	
+}
+
 .header a.vk {
-	background: url('../Images/Icons/vk-icon.png') 0 5px no-repeat;
+	background: url('../Images/Icons/vk-icon.png') 15px 15px no-repeat;
 }
 .header a.fb {
-	background: url('../Images/Icons/facebook-icon.png') 0 2px no-repeat;
+	background: url('../Images/Icons/facebook-icon.png') 15px 11px no-repeat;
 }
 .header a.telegram {
-	background: url('../Images/Icons/telegram-icon.png') 0 2px no-repeat;
+	background: url('../Images/Icons/telegram-icon.png') 15px 11px no-repeat;
 }
 .header a.instagram {
-	background: url('../Images/Icons/instagram-icon.png') 0 2px no-repeat;
+	background: url('../Images/Icons/instagram-icon.png') 15px 11px no-repeat;
 }
 
 .flex-center {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 240px;
+
+}
+.logo-block {
+	min-height: 450px;	
 }
 
 /* Sections
@@ -194,7 +216,7 @@ a.header__share--button {
 --------------------------------------------------------------------------------- */
 
 .circles {
-
+	min-height: 200px;
 }
 .circle {	
 	height: 100px;
@@ -279,6 +301,7 @@ p.event {
 }
 .partners {
 	max-width: 770px;
+	min-height: 200px;
 	margin: 0 auto;
 }
 .link {
