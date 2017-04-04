@@ -1,0 +1,48 @@
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.cols {
+		display: block;
+	}
+	.col-outer p.hidden {
+		display: block;
+		opacity: 1;
+	}
+	/*
+	.flex-center {
+		display: block;
+	}
+	*/
+	.circles {
+		margin-top: 20px;
+		display: block;
+	}
+	.circle {
+		margin-bottom: 20px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.map-info {
+		padding: 10px;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+        
+}
+
+
