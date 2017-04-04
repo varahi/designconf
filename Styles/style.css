@@ -135,7 +135,9 @@ a.header__share--button {
 	align-items: center;	
 	display: flex;
 }
-
+.col-inner {
+	max-height: 220px;
+}
 .col-outer p.hidden {
 	opacity: 0;
 	display: none;
