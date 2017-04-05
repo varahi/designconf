@@ -374,6 +374,9 @@ p.event {
 	padding: 35px 35px 70px 35px;
 	background: #fff;
 }
+.mobile-map {
+	display: none;
+}
 
 .section-8 h3 {
 	font-size: 18px;
