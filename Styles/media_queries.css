@@ -50,7 +50,7 @@
 	}
 	.mobile-map {
 		display: flex;
-		border: 1px solid red;
+		min-height: 300px;
 	}
 }
 /* Extra Small Devices, Phones */ 
