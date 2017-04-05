@@ -108,14 +108,26 @@ a.header__share--button:HOVER {
 .header a.vk {
 	background: url('../Images/Icons/vk-icon.png') 15px 15px no-repeat;
 }
+.header a:HOVER.vk {
+	background: url('../Images/Icons/vk-icon_hover.png') 15px 15px no-repeat;
+}
 .header a.fb {
 	background: url('../Images/Icons/facebook-icon.png') 15px 11px no-repeat;
+}
+.header a:HOVER.fb {
+	background: url('../Images/Icons/facebook-icon_hover.png') 15px 11px no-repeat;
 }
 .header a.telegram {
 	background: url('../Images/Icons/telegram-icon.png') 15px 11px no-repeat;
 }
+.header a:HOVER.telegram {
+	background: url('../Images/Icons/telegram-icon_hover.png') 15px 11px no-repeat;
+}
 .header a.instagram {
 	background: url('../Images/Icons/instagram-icon.png') 15px 11px no-repeat;
+}
+.header a:HOVER.instagram {
+	background: url('../Images/Icons/instagram-icon_hover.png') 15px 11px no-repeat;
 }
 
 .flex-center {
