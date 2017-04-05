@@ -39,6 +39,12 @@
 	.partners img {
 		margin: 10px 0;
 	}	
+	.header__icons a,
+	.header__icons a.last {
+		display: block;
+		width: 140px;
+		margin: 0 auto 10px auto;
+	}
 }
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 575px) {
