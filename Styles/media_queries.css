@@ -51,7 +51,40 @@
 	.mobile-map {
 		display: flex;
 		min-height: 300px;
+		
+		/*background: url('../Images/mobile-map-bg.jpg') 0 0 no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;		*/
 	}
+	.mobile-map .col-sm-6 {
+		display: flex;
+		justify-content: center;
+		align-items: center;	
+		width: 200px;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	.mobile-map a {
+		display: block;
+		max-width: 200px;
+		height: 150px;	
+	}
+	.mobile-map p {
+		text-align: center;
+		position: relative;
+		top: 70px;
+		font-size: 18px;
+		color: #000;
+	}
+	.yandex-map a {
+		background: url('../Images/Icons/yandex-map-icon.png') center 0 no-repeat;
+	}
+	.google-map a {
+		background: url('../Images/Icons/google-map-icon.png') center 0 no-repeat;
+	}	
 }
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 575px) {
